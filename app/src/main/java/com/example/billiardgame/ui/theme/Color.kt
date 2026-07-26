@@ -1,0 +1,25 @@
+package com.example.billiardgame.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val Green80 = Color(0xFF2E7D32)
+val Green40 = Color(0xFF4CAF50)
+val WoodBrown80 = Color(0xFF6B3E1F)
+val WoodBrown40 = Color(0xFF8B5E3C)
+val FeltDark = Color(0xFF0B6B3C)
+val FeltLight = Color(0xFF1B8B4C)
+val CueCream = Color(0xFFF5F0E1)
+val GoldAccent = Color(0xFFFFD700)
+val SilverAccent = Color(0xFFC0C0C0)
+val BronzeAccent = Color(0xFF8B4513)
+val DiamondBlue = Color(0xFFB9F2FF)
+val LegendaryPink = Color(0xFFFF69B4)
+val Black = Color(0xFF1A1A1A)
+val White = Color(0xFFFFFFFF)
+val Red = Color(0xFFFF0000)
+val Blue = Color(0xFF0000FF)
+val Yellow = Color(0xFFFFFF00)
+val Purple = Color(0xFF800080)
+val Orange = Color(0xFFFF8C00)
+val Maroon = Color(0xFF800000)
+val Gray = Color(0xFF808080)

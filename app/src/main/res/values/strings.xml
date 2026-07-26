@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">8-Ball Billiards</string>
+    <string name="play_game">Play Game</string>
+    <string name="cue_sticks">Cue Sticks</string>
+    <string name="stats_records">Stats &amp; Records</string>
+    <string name="settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="win_streak">Win Streak</string>
+    <string name="total_wins">Total Wins</string>
+    <string name="total_games">Total Games</string>
+    <string name="win_rate">Win Rate</string>
+    <string name="clear_history">Clear History</string>
+    <string name="confirm_clear">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="play_again">Play Again</string>
+    <string name="game_won">You Won!</string>
+    <string name="game_lost">You Lost</string>
+    <string name="your_turn">Your Turn</string>
+    <string name="opponent_turn">Opponent\'s Turn</string>
+    <string name="foul">Foul!</string>
+    <string name="cued_ball_in_hand">Ball in Hand</string>
+</resources>
