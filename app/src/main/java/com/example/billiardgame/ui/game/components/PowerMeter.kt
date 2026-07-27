@@ -1,5 +1,5 @@
 package com.example.billiardgame.ui.game.components
-
+import androidx.compose.ui.Alignment
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
