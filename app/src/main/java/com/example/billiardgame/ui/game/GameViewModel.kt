@@ -1,5 +1,6 @@
 package com.example.billiardgame.ui.game
-
+import kotlin.math.sin
+import kotlin.math.cos // 如果用到了 cos 也一并加上
 import androidx.compose.ui.geometry.Offset
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
