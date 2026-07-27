@@ -1,16 +1,19 @@
 package com.example.billiardgame.data.local
 
-import androidx.room.*
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
 import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface ScoreDao {
-    @Query("SELECT * FROM score_entries ORDER BY dateMillis DESC LIMIT 100")
-    fun getAll(): Flow<List<ScoreEntity>>
+    @Query("SELECT * FROM scores ORDER BY date DESC")
+    fun getAllScores(): Flow<List<ScoreEntity>>
 
-    @Insert(onConflict = OnConflictStrategy.APPEND)
-    suspend fun insert(entity: ScoreEntity)
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertScore(score: ScoreEntity)
 
-    @Query("DELETE FROM score_entries")
-    suspend fun deleteAll()
+    @Query("DELETE FROM scores")
+    suspend fun deleteAllScores()
 }
